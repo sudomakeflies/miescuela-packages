@@ -1,0 +1,9 @@
+TERMUX_PKG_HOMEPAGE=https://github.com/termux/termux-exec
+TERMUX_PKG_DESCRIPTION="An execve() wrapper to make /bin and /usr/bin shebangs work"
+TERMUX_PKG_LICENSE="Apache-2.0"
+TERMUX_PKG_VERSION=0.4
+TERMUX_PKG_REVISION=1
+TERMUX_PKG_SRCURL=https://github.com/dbcaturra/miescuela-exec/archive/master.tar.gz
+TERMUX_PKG_SHA256=b595f4de184be1d578d6e83ad660f6d7749338b1a85c63ce4dc647d99729523b
+TERMUX_PKG_ESSENTIAL=true
+TERMUX_PKG_BUILD_IN_SRC=true

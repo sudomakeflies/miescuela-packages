@@ -1,0 +1,10 @@
+TERMUX_PKG_HOMEPAGE=https://github.com/facebook/zstd
+TERMUX_PKG_DESCRIPTION="Zstandard compression."
+TERMUX_PKG_LICENSE="GPL-2.0"
+TERMUX_PKG_VERSION=1.4.3
+TERMUX_PKG_SRCURL=https://github.com/facebook/zstd/archive/v$TERMUX_PKG_VERSION.tar.gz
+TERMUX_PKG_SHA256=5eda3502ecc285c3c92ee0cc8cd002234dee39d539b3f692997a0e80de1d33de
+TERMUX_PKG_DEPENDS="liblzma, zlib"
+TERMUX_PKG_BREAKS="zstd-dev"
+TERMUX_PKG_REPLACES="zstd-dev"
+TERMUX_PKG_BUILD_IN_SRC=true
